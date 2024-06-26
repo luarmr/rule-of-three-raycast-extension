@@ -21,9 +21,9 @@ function calculate(values: Values) {
 
   switch (nullIndex) {
     case 0:
-      return numC !== 0 ? (numB! * numD!) / numC! : NaN;
+      return numD !== 0 ? (numB! * numC!) / numD! : NaN;
     case 1:
-      return numD !== 0 ? (numA! * numC!) / numD! : NaN;
+      return numC !== 0 ? (numA! * numD!) / numC! : NaN;
     case 2:
       return numB !== 0 ? (numA! * numD!) / numB! : NaN;
     case 3:
